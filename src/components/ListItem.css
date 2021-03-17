@@ -4,7 +4,7 @@
   flex-direction: column;
   line-height: 1.5em;
   min-height: 4em;
-  padding: 1em;
+  padding: 1em 1em;
 }
 .list-item-container:hover {
   background-color: #91AA9D;
