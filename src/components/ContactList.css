@@ -1,0 +1,7 @@
+.contact-list {
+  margin: 0 auto;
+  background-color: burlywood;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}

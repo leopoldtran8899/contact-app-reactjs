@@ -1,0 +1,10 @@
+.contact-detail-container {
+  width: 100%;
+}
+.detail {
+  display: flex;
+  flex-direction: row;
+}
+.detail>.detail-label {
+  color: blue;
+}

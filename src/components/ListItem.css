@@ -1,0 +1,16 @@
+.list-item-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.list-item-container:hover {
+  background-color: darksalmon;
+  cursor: pointer;
+}
+.list-item-name {
+  color:darkmagenta
+}
+
+.list-item-phone {
+  
+}
