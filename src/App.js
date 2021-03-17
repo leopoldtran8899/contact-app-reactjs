@@ -13,13 +13,11 @@ export default class App extends React.Component {
   }
   componentDidMount() {
     getAll().then(users => {
-      console.log(users)
       this.setState({ contacts: users })
     })
   }
 
   handleSelectItem = (ind) => {
-    console.log(ind)
     this.setState({ selected: ind })
   }
   render() {
@@ -34,7 +32,7 @@ export default class App extends React.Component {
             />
           </div>
           {
-            this.state.selected != null || this.state.selected != undefined ?
+            this.state.selected !== null || this.state.selected !== undefined ?
               <div className='app-detail'>
                 <ContactDetail contact={this.state.contacts[this.state.selected]} />
               </div> : <div className='app-detail'/>

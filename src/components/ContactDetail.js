@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import './ContactDetail.css'
 export class ContactDetail extends Component {
 
