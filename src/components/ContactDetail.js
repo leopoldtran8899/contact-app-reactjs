@@ -10,6 +10,7 @@ export class ContactDetail extends Component {
       return (
         <div className='contact-detail-container'>
           <div className='detail detail-name'>{contact.name}</div>
+          <br/>
           <div className='detail detail-phone'>
             <div className='detail-label'>Phone</div>
             <div className='detail-value'>{contact.phone}</div>

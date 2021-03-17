@@ -2,13 +2,23 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  line-height: 1.5em;
+  min-height: 4em;
+  padding: 1em;
 }
 .list-item-container:hover {
-  background-color: darksalmon;
+  background-color: #91AA9D;
+  color: #FCFFF5;
   cursor: pointer;
+  
+}
+.list-item-container:hover > .list-item-name {
+  color:#1B3540
 }
 .list-item-name {
-  color:darkmagenta
+  color:#D1DBBD;
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 .list-item-phone {

@@ -13,7 +13,7 @@ export class ListItem extends Component {
   render() {
     return (
       <div className='list-item-container' onClick={this.handleSelect}>
-        <div className='list-item-name'>{this.props.name}</div>
+        <div className='list-item-name'><b>{this.props.name}</b></div>
         <div className='list-item-phone'>{this.props.phone}</div>
       </div>
     )

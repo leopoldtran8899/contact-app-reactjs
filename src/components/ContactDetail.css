@@ -4,7 +4,18 @@
 .detail {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .detail>.detail-label {
-  color: blue;
+  color: #91AA9D;
+  font-weight: bold;
+}
+.detail>.detail-value {
+  text-align: right;
+}
+
+.detail-name {
+  color: #D1DBBD;
+  font-size: 2em;
+  font-weight: bold;
 }
